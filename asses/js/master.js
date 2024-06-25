@@ -3,7 +3,7 @@ let _div = document.querySelector('main>div')
 let _img = document.querySelectorAll('main img')
 window.addEventListener('scroll',()=>{
     let _scrollY = window.scrollY
-    let _maxScrollY = (_main.clientHeight) - (_div.clientHeight)
+    let _maxScrollY = _main.clientHeight 
     let _percent = (_scrollY * 100 ) / _maxScrollY 
     console.log(_percent);
     
